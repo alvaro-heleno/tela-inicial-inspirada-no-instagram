@@ -1,0 +1,142 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 15px
+}
+
+body{
+	width: 100%;
+	min-height: 100vh;
+	background-color: #070719;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.site-wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	width: 60%;
+	height: 100vh;
+}
+
+.site-simbol{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
+.site-simbol img{
+	height: 50rem;
+}
+.site-continue{
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 30%;
+	min-height: 35rem;
+}
+
+.site-continue img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	border-radius: 50%;
+	width: auto;
+	height: auto;
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.group{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	background-color: #000000;
+	width: 100%;
+	padding: 1.5rem 0;
+    border: 1px solid white;
+}
+
+.group:nth-child(1){
+	min-height: 20rem;
+	margin: 5px;
+}
+
+.site-login{
+	background-color: #0095f6;
+	color: white;
+	padding: 8px;
+	border-radius: 4px;
+}
+
+.site-logout{
+	color: #0095f6;
+	margin-bottom: 1rem;
+}
+
+.link-blue{
+	color: #0095f6;
+}
+
+.get-the-app{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	margin: 5px;
+}
+
+.download{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+}
+
+.app-download{
+	height: 3rem;
+	width: 10rem;
+	background-size: cover;
+}
+
+.app-download:nth-child(1){
+	background-image: url('./google-play-badge-2waw6fkva3acl4zcn2h9r9iye4sse3q1sj63jrvt2v4ece0uo.png');
+	width: 170px;
+	margin: 5px;
+}
+
+.app-download:nth-child(2){
+	background-image: url('./botão\ disponível\ na\ app\ store.png');
+}
+	
+@media (max-width: 1024px) {
+	.site-wrapper{
+		width: 90%;
+	}
+}
+
+@media (max-width: 650px) {
+	.site-wrapper{
+	width: 90%;
+	 }
+
+	 .site-simbol{
+		 display: none;
+	 }
+
+	 .site-continue{
+		 width: 100%;
+	 }
+}
