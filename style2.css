@@ -112,13 +112,13 @@ body{
 }
 
 .app-download:nth-child(1){
-	background-image: url('./google-play-badge-2waw6fkva3acl4zcn2h9r9iye4sse3q1sj63jrvt2v4ece0uo.png');
+	background-image: url('./google\ play.png');
 	width: 170px;
 	margin: 5px;
 }
 
 .app-download:nth-child(2){
-	background-image: url('./botão\ disponível\ na\ app\ store.png');
+	background-image: url('./app\ store.png');
 }
 	
 @media (max-width: 1024px) {
